@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(221, 107, 65), lightblue, yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 450px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 5px;
+    background: linear-gradient(to bottom, lightblue, rgb(219, 172, 179), lightyellow);
+}
+
+h3 {
+    margin: 17px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.anime-container {
+    display: none;
+}
+
+#btn {
+    background-color: green;
+    color: aliceblue;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+}
+
+#anime-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid green;
+    border: none;
+}
+
+#anime-name {
+    margin: 20px;
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+#limits {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
